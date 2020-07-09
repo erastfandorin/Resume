@@ -1,0 +1,152 @@
+.section-header {
+  background-image: url("img/BackgrounForHeader.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 600px;
+  position: relative;
+
+  .cont-header {
+    padding: 38px 96px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .main-heading {
+    max-width: 450px;
+    margin: 0 0 16px -3px;
+    color: #fff;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 81.5px;
+    text-decoration: none;
+    line-height: 1;
+    letter-spacing: 2px;
+    text-indent: 4px;
+  }
+
+  .sub-heading {
+    margin: 0 0 20px;
+    color: rgb(39, 247, 253);
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 24.66px;
+    text-transform: uppercase;
+    letter-spacing: 5.1px;
+  }
+
+  .social-icon {
+    display: flex;
+    justify-content: space-between;
+    width: 163px;
+    margin: 0 0 12px 0;
+
+    .icon-item {
+      width: 33px;
+      height: 34px;
+      border-radius: 15%;
+
+      &:nth-child(1) {
+        background-color: #000000;
+      }
+      &:nth-child(2) {
+        background-color: #2765ad;
+      }
+      &:nth-child(3) {
+        background-color: #27a2e4;
+      }
+      &:nth-child(4) {
+        background-color: #36a1d5;
+      }
+
+      .icon-github {
+        width: 25px;
+        margin: 4px 4px;
+      }
+
+      .icon-linkedin {
+        width: 20px;
+        margin: 5px 6px;
+      }
+
+      .icon-skype {
+        width: 23px;
+        margin: 5px 5px;
+      }
+
+      .icon-telegram {
+        width: 23px;
+        margin: 5px 5px;
+      }
+
+      a {
+        display: block;
+      }
+    }
+  }
+
+  .phone {
+    color: #ffffff;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.3;
+    letter-spacing: 0.012em;
+  }
+
+  .mail {
+    display: block;
+    color: #ffffff;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 22px;
+    letter-spacing: 0.012em;
+  }
+
+  a:hover {
+    opacity: 0.5;
+  }
+
+  .photo {
+    width: 405px;
+    border: 27px solid #6b03dd;
+    border-radius: 100%;
+  }
+
+  .box-for-photo {
+    margin: 18px -12px;
+    position: relative;
+    z-index: 0;
+  }
+
+  .box-for-photo::before {
+    background-image: url(../../img/backMyPhoto.png);
+    background-size: cover;
+    background-position: center;
+    width: 488px;
+    height: 500px;
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: -69px;
+    right: -75px;
+  }
+}
+
+.decorative-element-header-one {
+  background-color: #6b03dd;
+  border-radius: 0 100% 100% 0 / 0 50% 50% 0;
+  position: absolute;
+  top: 279px;
+  width: 52px;
+  height: 123px;
+}
+
+.decorative-element-header-two {
+  background: linear-gradient(-58deg, #6b03dd, #ffffff);
+  border-radius: 50%;
+  position: absolute;
+  top: 401px;
+  right: 44px;
+  width: 65px;
+  height: 67px;
+}
