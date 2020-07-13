@@ -1,9 +1,12 @@
 {
-  "name": "trudohod",
+  "name": "resume",
   "scripts": {
     "watch": "NODE_ENV=development webpack-dev-server",
-    "build": "NODE_ENV=production webpack"
+    "build": "NODE_ENV=production webpack",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
+  "homepage": "https://github.com/erastfandorin/Resume",
   "dependencies": {
     "copy-webpack-plugin": "^5.1.1",
     "css-loader": "^3.4.2",

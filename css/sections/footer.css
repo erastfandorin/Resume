@@ -1,5 +1,5 @@
 .footer {
-  background-image: url("../../img/backgroundForFooter.png");
+  background-image: url("img/backgroundForFooter.png");
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: bottom;
@@ -11,7 +11,7 @@
   }
 
   .decorative-element-footer-one {
-    background-image: url("../../img/decorativeElementFooter.png");
+    background-image: url("img/decorativeElementFooter.png");
     background-size: cover;
     background-position: center;
     width: 400px;
