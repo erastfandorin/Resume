@@ -1,3 +1,7 @@
-@import 'global.css';
+@import "global.css";
 
-@import 'sections/header.css';
+@import "sections/header.css";
+
+@import "sections/main.css";
+
+@import "sections/footer.css";

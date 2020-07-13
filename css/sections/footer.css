@@ -1,0 +1,69 @@
+.footer {
+  background-image: url("../../img/backgroundForFooter.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  height: 268px;
+  position: relative;
+
+  @media only screen and (min-width: 320px) and (max-width: 425px) {
+    height: 120px;
+  }
+
+  .decorative-element-footer-one {
+    background-image: url("../../img/decorativeElementFooter.png");
+    background-size: cover;
+    background-position: center;
+    width: 400px;
+    height: 400px;
+    content: "";
+    position: absolute;
+    top: -152px;
+    left: -184px;
+    clip: rect(0px, 492px, 522px, 184px);
+
+    @media only screen and (min-width: 992px) and (max-width: 1199px) {
+      width: 330px;
+      height: 330px;
+      top: -80px;
+      left: -149px;
+      clip: rect(0px, 492px, 522px, 148px);
+    }
+
+    @media only screen and (min-width: 426px) and (max-width: 991px) {
+      width: 265px;
+      height: 265px;
+      top: -3px;
+      left: -123px;
+      clip: rect(0px, 492px, 522px, 123px);
+    }
+
+    @media only screen and (min-width: 320px) and (max-width: 425px) {
+      display: none;
+    }
+  }
+
+  .decorative-element-footer-two {
+    background: linear-gradient(-58deg, #5271ff, #8520a8);
+    border-radius: 50%;
+    position: absolute;
+    top: 35px;
+    right: 77px;
+    width: 90px;
+    height: 90px;
+
+    @media only screen and (min-width: 426px) and (max-width: 1199px) {
+      top: 76px;
+      right: 68px;
+      width: 75px;
+      height: 75px;
+    }
+
+    @media only screen and (min-width: 320px) and (max-width: 425px) {
+      top: 11px;
+      right: 42px;
+      width: 55px;
+      height: 55px;
+    }
+  }
+}
