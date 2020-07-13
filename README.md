@@ -10,7 +10,7 @@ In this project I mastered:
 - Pug
 - PostCSS
 
-All components are in the src folder. `.editorconfig` - configuration files for format the code.
+`.editorconfig` - configuration files for format the code.
 Assembly for the project on Webpack takes from [here](https://github.com/makewebme/website-tech2020-simple-landing).
 
 You can run this project locally just do:
