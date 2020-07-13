@@ -15,7 +15,7 @@ Assembly for the project on Webpack takes from [here](https://github.com/makeweb
 
 You can run this project locally just do:
 
-1. clone branch `review` with
+1. clone branch `master` with
    `git clone https://erastfandorin.github.io/Resume/`
    or fork it and then clone it from your forked repo
 1. `cd Resume`
