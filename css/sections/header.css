@@ -34,7 +34,7 @@
     @media only screen and (min-width: 320px) and (max-width: 991px) {
       flex-wrap: wrap-reverse;
       justify-content: center;
-      padding: 35px 30px;
+      padding: 30px 21px;
 
       .header-information-box {
         display: flex;
@@ -47,7 +47,7 @@
     .main-heading {
       max-width: 450px;
       margin: 0 0 16px -3px;
-      color: #fff;
+      color: #ffffff;
       font-family: Roboto;
       font-weight: 700;
       font-size: 5.1em;
@@ -60,13 +60,13 @@
         margin: 0 0 7px -3px;
       }
 
-      @media only screen and (min-width: 469px) and (max-width: 991px) {
+      @media only screen and (min-width: 600px) and (max-width: 991px) {
         max-width: 500px;
         font-size: 4.1em;
         margin: 0 0 8px -3px;
       }
 
-      @media only screen and (min-width: 320px) and (max-width: 468px) {
+      @media only screen and (min-width: 320px) and (max-width: 599px) {
         font-size: 3em;
         margin: 0 0 8px -3px;
         text-align: center;
@@ -75,7 +75,7 @@
 
     .sub-heading {
       margin: 0 0 20px;
-      color: rgb(39, 247, 253);
+      color: #ffffff;
       font-family: Roboto;
       font-weight: 400;
       font-size: 1.54em;
